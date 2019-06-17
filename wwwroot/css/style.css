@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+.topo{
+    width: 100%;
+    background-color: #1fbdcc;
+    height:250px ;
+    background-size: cover;
+
+}
+.conteudo_topo{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+.conteudo_topo img{
+    width: 200px;
+   margin-left: -9em;
+}
+
+.menu_geral{
+    width: 100%;
+}
+
+.menu ul {
+    width: 100%;
+    display: flex; 
+    /* margin-top:190px;  */
+    justify-content: center;
+    list-style: none;
+
+}
+.menu ul a{
+    color: aliceblue;
+}
+.menu li{
+    margin-top: 190px;
+    padding: 0 2em;
+      
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 4em;
+    color: #ffaf0d;
+    font-size: 1.5em;
+
+}
+.menu{
+    margin-top: -6em;
+}
+.banner{
+    background-image: url(../imagens/trabalho.jpg);
+    background-size: cover;
+    padding-top: 12%;
+    height: 30em;
+}
+.banner p{
+    text-align: center;
+    padding: 2em;
+    background-color: #746b6b4b;
+    width: 20%;
+    margin: auto auto;
+    border-radius: 3%
+}
+.digital h2{
+    text-align: center;
+    margin-top: 2em;
+}
+.digital h3{
+
+    text-align: right;
+    margin-top: -13em;
+    margin-right: 18em;
+    
+
+}
+.digital p{
+    text-align: center;
+    padding: 2em;
+    width: 20%;
+    margin: auto auto;
+    margin-right: 14em;
+   
+}
+#video_do_ponto_digital{
+    display: block;
+    padding-top: -5em;
+    margin-left: 4em;
+}
+.planos{
+ background-color:#1fbdcc;
+ padding-bottom: 3em;
+ text-align: center;
+ 
+
+}
+.planos h2{
+    margin-top: 4em;
+    padding: 3em;  
+}
+.box-plano{
+    width: 15%;
+    height: 300px;
+    background: #fff;
+    box-shadow: 0 0 5px #000;
+
+}
+.conteudo-planos{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.destaque{
+    font-size: 1.5em;
+    color: #ffaf0d;
+}
+.box-plano{
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.box-divulgacoes{
+    width: 15%;
+    height: 300px;
+    background: #1fbecca9;
+    box-shadow: 0 0 5px #000;
+
+}
+.conteudo-divulgacoes{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
+.destaque{
+    font-size: 1.5em;
+    color: #ffaf0d;
+}
+.box-divulgacoes{
+    font-size: 1.3em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.divulgacoes h2{
+    margin-top: 1em;
+    padding: 1.5em;
+    text-align: center;  
+}
